@@ -5,7 +5,7 @@
  * Date: 31/07/2017
  * Time: 21:34
  */
-namespace curunoir\ImageResizer;
+namespace Curunoir\ImageResizer;
 /**
  * Created by PhpStorm.
  * User: dlouvard_imac

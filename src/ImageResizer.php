@@ -6,7 +6,7 @@
  * Time: 21:33
  */
 
-namespace curunoir\ImageResizer;
+namespace Curunoir\ImageResizer;
 
 use Intervention\Image\ImageManager;
 

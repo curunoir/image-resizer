@@ -1,5 +1,5 @@
 <?php
-namespace curunoir\ImageResizer\Facades;
+namespace Curunoir\ImageResizer\Facades;
 
 use \Illuminate\Support\Facades\Facade;
 
