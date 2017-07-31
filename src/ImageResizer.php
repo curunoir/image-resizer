@@ -20,21 +20,18 @@ class ImageResizer
     private $manager;
 
 
-    public function __construct($source, $destination)
+    public function __construct()
     {
-        $this->source       = $source;
-        $this->destination  = $destination;
-
         // create an image manager instance with favored driver
         $this->manager = new ImageManager(array('driver' => 'gd'));
     }
 
-    public function widen($width)
+    public function widen($source, $destination, $width)
     {
-         $img = Image::make($this->source);
+         $img = Image::make($source);
          $img->widen($width, function ($constraint) {
             $constraint->upsize();
          });
-        $img->save($this->destination);
+        $img->save($destination);
     }
 }

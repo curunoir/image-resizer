@@ -4,6 +4,7 @@
     "description": "Minimal image resizer intervention wrapper",
     "require": {
         "php": ">=5.5.9",
+        "illuminate/support": ">=5.1",
         "intervention/image": ">=1.6"
     },
     "keywords": [
