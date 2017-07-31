@@ -1,26 +1,12 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: curu
- * Date: 31/07/2017
- * Time: 21:34
- */
+
 namespace Curunoir\ImageResizer;
-/**
- * Created by PhpStorm.
- * User: dlouvard_imac
- * Date: 06/01/2017
- * Time: 22:28
- */
+
 use Illuminate\Support\ServiceProvider;
-//use Illuminate\Foundation\AliasLoader;
+use Curunoir\ImageResizer\ImageResizer;
 
 class ImageResizerServiceProvider extends ServiceProvider
 {
-    public function boot()
-    {
-        //AliasLoader::getInstance()->alias('BootForm',BootForm::class);
-    }
 
     public function register()
     {
@@ -29,8 +15,4 @@ class ImageResizerServiceProvider extends ServiceProvider
         });
     }
 
-    public function provides()
-    {
-        return ['ImageResizer'];
-    }
 }

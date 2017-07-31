@@ -28,7 +28,7 @@ class ImageResizer
 
     public function widen($source, $destination, $width)
     {
-         $img = Image::make($source);
+         $img = $this->manager->make($source);
          $img->widen($width, function ($constraint) {
             $constraint->upsize();
          });
