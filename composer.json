@@ -1,6 +1,5 @@
 {
     "name": "curunoir/image-resizer",
-    "minimum-stability": "dev",
     "description": "Minimal image resizer intervention wrapper",
     "require": {
         "php": ">=5.5.9",
